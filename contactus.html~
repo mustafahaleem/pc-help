@@ -12,7 +12,7 @@
       <h3>
        We can fix your pc today! 
       </h3>
-      <h5><a href='index.html'><div>Home</div></a><a href='helppage.html'><div>Get Help Now!</div></a><a href='contactus.html'><div>Contact us </div></a></h5>
+      <h5><a href='Homepage.html'><div>Home</div></a><a href='helppage.html'><div>Get Help Now!</div></a><a href='Contact us.html'><div>Contact us </div></a></h5>
     </div>
 	<!-- when you click the contact us button wile on the contact us page is gives ERR_FILE_NOT_FOUND -->
   </div>
