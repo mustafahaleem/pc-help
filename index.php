@@ -16,6 +16,6 @@
 			<?php echo file_get_contents("footer.php"); ?>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script></script>
+		<script src="homepage.js"></script>
 	</body>
 </html>

@@ -76,7 +76,7 @@ noscript {
 	margin: 0;
 	padding: 0;
 	& li {
-		display: inline-block;
+		display: inline;
 		list-style-type: none;
 		margin: 0;
 	}
@@ -86,13 +86,43 @@ noscript {
 }
 
 .navigation {
-	height: 37.5%;
+   -webkit-box-shadow: 10px 0 5px -2px #888;
+            box-shadow: 10px 0 5px -2px #888;
 	font: 18pt/1.25em "Open Sans", sans-serif;
 	font-weight: bold;
+	margin-bottom: 9pt;
+	padding-bottom: 9pt;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
 		& a {
 			color: #222;
+			padding: 0 4.5pt;
 			&:hover {
 			 color: #F60;
 			}
+			&:active {
+				color: #7C3709;
+			}
+		}
+		& .beforelogo {
+			position: absolute;
+			left: -465px;
+			margin-left: 38%;
+			top: 50%;
+			margin-top: -11pt;
+		}
+		& .beforelogo, & .afterlogo {
+			display: inline-block;
+		}
+		& .afterlogo {
+			left: 62%;
+			top: 50%;
+			margin-top: -11pt;
+			position: absolute;
+		}
+		& .logo {
+			padding-top: 9pt;
+			width: 20%;
 		}
 }
