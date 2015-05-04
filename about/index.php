@@ -8,12 +8,12 @@
 	</head>
 	<body>
 		<div class="page">
-			<?php echo file_get_contents("navigation.php"); ?>
+			<?php echo file_get_contents("/alexparkinson/navigation.php"); ?>
 			<div class="content">
 			
 			</div>
 		
-			<?php echo file_get_contents("footer.php"); ?>
+			<?php echo file_get_contents("/alexparkinson/footer.php"); ?>
 		</div>
 		<script src="about.js"></script>
 	</body>
