@@ -15,6 +15,6 @@
 		
 			<?php echo file_get_contents("footer.php"); ?>
 		</div>
-		<script src="homepage.js"></script>
+		<script src="assets/scripts/js/homepage.js"></script>
 	</body>
 </html>
