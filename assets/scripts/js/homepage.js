@@ -1,1 +1,0 @@
-$(".nav").mouseenter(function(){ $("body").css("background","transparent url('http://upload.wikimedia.org/wikipedia/commons/4/4a/Army_Air_Corps_Apache_Helicopter_Pilot_Prepares_forTake_Off_MOD_45154502.jpg') repeat center center"); }).mouseleave(function(){ $("body").css("background", "transparent"); });
