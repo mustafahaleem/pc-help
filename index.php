@@ -4,7 +4,9 @@
 		<title></title>
 		<meta charset="utf-8">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-		<link href='/alexparkinson/assets/style/css/homepage.css' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+		<link media="all and (orientation:landscape)" href='/alexparkinson/assets/style/css/homepage.css' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div class="page">

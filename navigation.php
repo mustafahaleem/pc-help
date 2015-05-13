@@ -1,6 +1,6 @@
 <div class="navigation">
 	<div class="inner">
-		<a href="alexparkinson/" class="logo"><img src="assets/images/logo2.png" style="height: 150px;">Springfield<br>Tech Geeks</a>
+		<a href="alexparkinson/" class="logo"><img src="/alexparkinson/assets/images/logo-placeholder.png" style="height: 150px;">Springfield<br>Tech Geeks</a>
 		<ul class="nav">
 		  <li><a href="/alexparkinson/">Home</a></li>
 		  <li>
