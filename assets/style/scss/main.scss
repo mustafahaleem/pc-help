@@ -120,7 +120,7 @@ html, body {
 }
 body {
 	min-height: 100%;
-	overflow-y: hidden;
+	overflow-x: hidden;
 }
 h1 { font-size: 2em; line-height: 3em; }
 h2 { font-size: 1.5em; line-height: 3em; }
@@ -154,20 +154,30 @@ noscript {
 	& .logo {
 		top: 0;
 		position: absolute;
-		padding: 3%;
+		padding: 50px;
 		right: left;
 	}
 	& .label {
 		cursor: pointer;
 		top: 0;
 		position: absolute;
-		padding: 3%;
+		margin: 50px;
 		right: 0;
+		font-size: 20px;
 		-webkit-transition: right 1s ease;
 		-moz-transition: right 1s ease;
 		-o-transition: right 1s ease;
 		transition: right 1s ease;
 		z-index: 9999;
+		padding: 10px 0;
+		border: 4px solid $lightondark;
+			& span {
+				padding: 10px;
+				cursor: pointer;
+			}
+			& .icon-menu {
+				border-left: 4px solid $lightondark;
+			}
 	}
 	& #menu:checked:before {
 		content: "checked";
@@ -182,6 +192,7 @@ noscript {
 	& #menu:checked ~ .overlay {
 		background-color: #000;
 		opacity: 0.5;
+		z-index: 999;
 		@include fillparent;
 	}
 	& .overlay {
@@ -195,6 +206,7 @@ noscript {
 		transition: opacity 1s linear;
 	}
 	& .inner {
+		box-shadow: -3px 0px 20px 1px #000;
 		-webkit-transition: left 1s ease, opacity 1s ease;
 		-moz-transition: left 1s ease, opacity 1s ease;
 		-o-transition: left 1s ease, opacity 1s ease;
@@ -243,6 +255,9 @@ noscript {
 			text-align: center;
 			position: relative;
 		}
+		& .last {
+			border-bottom: 1px solid #ccc;
+		}
 		& > ul > li {
 			& ul {
 				background-color: #ddd;
@@ -256,6 +271,10 @@ noscript {
 			}
 		}
 	}
+}
+
+.content {
+	padding-top: 200px;
 }
 
 .content, .footer {
